@@ -5,5 +5,4 @@ if __name__ == "__main__":
         sys.path.append(path)
 
     from starterPack import create_app
-    app = create_app()
-    app.run()
+    application = create_app()
