@@ -1,5 +1,5 @@
-from starterPack import create_app
+from starterPack import application
 
 if __name__ == "__main__":
-    app = create_app()
+    app = application
     app.run()
